@@ -1,0 +1,67 @@
+@import "../../index.scss";
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 20px;
+
+    @media (max-width: 960px) {
+        display: block;
+    }
+    @media (max-width: 800px) {
+        display: grid;
+    }
+}
+
+.button {
+    display: inline-block;
+    text-transform: $up;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    line-height: 25px;
+    padding: 15px;
+    background-color: #fff;
+    color: $d-gray;
+    border: 1px solid #DFE5EC;
+    cursor: pointer;
+    align-content: center;
+
+    @media (max-width: 960px) {
+        width: 168px;
+        min-height: 50px;
+        letter-spacing: 0.5px;
+        line-height: 20px;
+        font-size: 12px;
+        padding: 15px;
+    }
+
+    @media (max-width: 800px) {
+        width: auto;
+        display: grid;
+    }
+}
+
+.button_active {
+    background-color:$blue;
+    color: #ffff;
+}
+
+.button:not(:first-child) {
+    border-left: none;
+}
+
+.button:first-child {
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.button:last-child {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+
+}
+
+.button:not(.button_active):hover {
+    background-color: #F1FCFF;
+}

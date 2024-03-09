@@ -1,0 +1,15 @@
+
+@import-normalize;
+
+$blue: #2196F3;
+$d-gray: #4A4A4A;
+$l-gray: #A0B0B9;
+$shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+$up: uppercase;
+$f-small: 12px;
+
+body {
+    background-color: #F3F7FA;
+    font-family: "Open Sans", sans-serif;
+    overflow-x: hidden;
+}
