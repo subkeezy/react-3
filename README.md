@@ -1,1 +1,1 @@
-Vercel: aviasales-xi-peach.vercel.app
+Vercel: https://aviasales-xi-peach.vercel.app/
