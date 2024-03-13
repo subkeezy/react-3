@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "./static/css/main.b22ee438.css",
+    "main.js": "./static/js/main.c533041f.js",
+    "index.html": "./index.html",
+    "static/media/checkbox arrow.svg": "./static/media/checkbox arrow.b3ce3c21e1b482d2d37a.svg",
+    "main.b22ee438.css.map": "./static/css/main.b22ee438.css.map",
+    "main.c533041f.js.map": "./static/js/main.c533041f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b22ee438.css",
+    "static/js/main.c533041f.js"
+  ]
+}
